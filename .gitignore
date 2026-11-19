@@ -1,0 +1,18 @@
+﻿# Сборки и зависимости
+/build/
+/gradle/
+/.idea/
+/*.iml
+
+# Локальные конфиги
+/config/local.env
+/config/*.secret
+
+# Временные файлы
+*.log
+*.tmp
+.DS_Store
+
+# Игнорировать все .env, кроме .env.example
+.env
+!.env.example

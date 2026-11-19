@@ -1,0 +1,9 @@
+﻿# Нормализация окончаний строк
+* text=auto eol=lf
+
+# Фильтр для секретных ключей
+config/api_keys.json filter=mask_secrets
+
+# Бинарные файлы
+*.png binary
+*.jpg binary
